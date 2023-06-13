@@ -1,0 +1,50 @@
+/* .carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+} */
+
+.carousel-indicators .active {
+  background-color: #444;
+}
+
+/* .carousel-indicators {
+  bottom: 56px;
+} */
+
+.left-part {
+  position: relative;
+  height: 100%;
+}
+
+.logo-container {
+  position: absolute;
+  display: flex;
+  top: 40px;
+  left: 40px;
+  z-index: 1;
+}
+
+.alignbtn-ezra {
+  display: flex;
+  justify-content: space-between;
+}
+
+.alignbtn-ezra .ezra-btn {
+  position: absolute;
+  width: 106px;
+  height: 36px;
+  right: 20px;
+  top: 20px; /* Update to desired position */
+  z-index: 1;
+  color: black;
+  font-size: 18px;
+  background: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+}
+
+.carousel-img {
+  object-fit: cover;
+  background-size: cover;
+}
